@@ -112,8 +112,11 @@ main{
         display: flex;
         flex-direction: column;
     }
-    .nomeTudo h1{
-        font-size: 24px;
+     .nomeTudo h1{
+        font-size: 22px;
+    }
+    .nomeTudo h2{
+        font-size: 20px;
     }
     .ods{
         
