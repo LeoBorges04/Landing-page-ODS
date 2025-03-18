@@ -101,13 +101,13 @@ main{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 390px){
 
     .nomeTudo{
         
         border-radius: 10px;
         margin: 0;
-        width: 380px;
+        width: 100%;
         padding: 5px;
         display: flex;
         flex-direction: column;
@@ -116,40 +116,43 @@ main{
         font-size: 24px;
     }
     .ods{
+        
+        display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         align-self: center;
-        justify-content: center;
-        height:400px;
+        justify-content: space-evenly;
+        height:350px;
         
         
     }
     .imageOds{
-        height:150px;
-        width: 150px;
-        height: auto;
-        align-items: center;
-        justify-content: center;
+        border-radius: 10px;
+        width: 140px;
+        padding-top: 10px;
+        
+        
     }
     .texto {
-        Eu nao sei pq, mas essa linha que estou escrevendo aqui
-        consegue estragar algo no css que MILAGROSAMENTE
-        JOGA A DIV TEXTO LA PRA CIMA NA DIV ODS
-        deixe assim e até entender NÃO MEXA 
-        height: 120px;
+        font-weight: 500;
+       font-size:small;
         width: 100%; /* O texto vai ocupar 100% da largura disponível */
         padding: 10px;
         box-sizing: border-box; /* Adiciona padding sem alterar a largura total */
     }
     .paiConteiner1 {
-        width: 400px;
+        display: flex;
+        padding-left: 10px;
+        width: 95%;
         flex-direction: column; /* Exibe os itens em coluna para telas menores */
-        justify-content: flex-start;
+        justify-content: space-evenly;
     }
     .container1 {
+        display: flex;
         width: 100%;
         flex-direction: column; /* Alinha as ODS em uma coluna */
         margin-left: 0;
-        gap: 20px; /* Ajusta o espaçamento entre as ODS */
+        
     }
     .ods h1 {
         font-size: 20px; /* Diminui o tamanho da fonte para dispositivos pequenos */
@@ -161,6 +164,7 @@ main{
     body {
         display: flex;
         flex-wrap: wrap;
-        padding: 0;
+        
+        justify-content: center;
     }
 }
