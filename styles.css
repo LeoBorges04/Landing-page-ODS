@@ -94,8 +94,8 @@ main{
 }
 
 .ods h1{
-    max-width: 80%; /* Limita a largura do h1 */
-    margin: 0 auto; /* Centraliza o h1 */
+    max-width: 80%; 
+    margin: 0 auto; 
     text-align: center;
     color: #003366;
 
@@ -129,14 +129,14 @@ main{
     .imageOds{
         border-radius: 10px;
         width: 140px;
-        padding-top: 10px;
+        
         
         
     }
     .texto {
         font-weight: 500;
        font-size:small;
-        width: 100%; /* O texto vai ocupar 100% da largura disponível */
+        width: 100%; 
         padding: 10px;
         box-sizing: border-box; /* Adiciona padding sem alterar a largura total */
     }
@@ -144,18 +144,18 @@ main{
         display: flex;
         padding-left: 10px;
         width: 95%;
-        flex-direction: column; /* Exibe os itens em coluna para telas menores */
+        flex-direction: column; 
         justify-content: space-evenly;
     }
     .container1 {
         display: flex;
         width: 100%;
-        flex-direction: column; /* Alinha as ODS em uma coluna */
+        flex-direction: column; 
         margin-left: 0;
         
     }
     .ods h1 {
-        font-size: 20px; /* Diminui o tamanho da fonte para dispositivos pequenos */
+        font-size: 20px; 
     }
     header {
         width: 380px;
