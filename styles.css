@@ -131,10 +131,10 @@ main{
     }
     .imageOds{
         border-radius: 10px;
+        height: 140px;
         width: 140px;
-        
-        
-        
+        padding: 0px;
+    
     }
     .texto {
         font-weight: 500;
