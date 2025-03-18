@@ -100,3 +100,67 @@ main{
     color: #003366;
 
 }
+
+@media screen and (max-width: 768px){
+
+    .nomeTudo{
+        
+        border-radius: 10px;
+        margin: 0;
+        width: 380px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nomeTudo h1{
+        font-size: 24px;
+    }
+    .ods{
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+        height:400px;
+        
+        
+    }
+    .imageOds{
+        height:150px;
+        width: 150px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto {
+        Eu nao sei pq, mas essa linha que estou escrevendo aqui
+        consegue estragar algo no css que MILAGROSAMENTE
+        JOGA A DIV TEXTO LA PRA CIMA NA DIV ODS
+        deixe assim e até entender NÃO MEXA 
+        height: 120px;
+        width: 100%; /* O texto vai ocupar 100% da largura disponível */
+        padding: 10px;
+        box-sizing: border-box; /* Adiciona padding sem alterar a largura total */
+    }
+    .paiConteiner1 {
+        width: 400px;
+        flex-direction: column; /* Exibe os itens em coluna para telas menores */
+        justify-content: flex-start;
+    }
+    .container1 {
+        width: 100%;
+        flex-direction: column; /* Alinha as ODS em uma coluna */
+        margin-left: 0;
+        gap: 20px; /* Ajusta o espaçamento entre as ODS */
+    }
+    .ods h1 {
+        font-size: 20px; /* Diminui o tamanho da fonte para dispositivos pequenos */
+    }
+    header {
+        width: 380px;
+        padding: 10px;
+    }
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}
